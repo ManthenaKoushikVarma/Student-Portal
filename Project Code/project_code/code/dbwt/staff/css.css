@@ -1,0 +1,56 @@
+body{
+margin:0;
+background-image:url(/dbwt/img/bg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+line-height:80%;
+opacity:0.9;
+}
+div.intro{
+text-align:center;
+padding:0.2em;
+font-weight:bold;
+background-color:white;
+opacity:0.9;
+}
+.menu {
+  overflow: hidden;
+  background-color:lightgreen; 
+}
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menu a:hover {
+  background-color: lightblue;
+  color: black;
+}
+a:link, a:visited {
+margin:auto;
+width:22%;
+background-color: lightgreen;
+color: black;
+font-weight:bold;
+padding: 14px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover, a:active {
+background-color: lightblue;
+}
+
+div.body{
+background-color:white;
+width:280px;
+height:6.5cm;
+margin:auto;
+line-height:1.6;
+padding:0.2cm;
+}

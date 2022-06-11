@@ -1,0 +1,122 @@
+body{
+margin:0;
+background-image:url(/dbwt/img/bg.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+line-height:80%;
+}
+
+div.intro{
+text-align:center;
+padding:0.2em;
+font-weight:bold;
+background-color:white;
+opacity:0.9;
+}
+
+form{	
+background-color:white;
+font-weight:bold;
+width:30%;
+margin:auto;
+opacity:0.9;
+line-height:1.6;
+padding:0.2cm 0.2cm 0cm 0.2cm;
+border: 2px solid black;
+}
+
+div.body{
+background-color:white;
+width:280px;
+height:6.5cm;
+margin:auto;
+opacity:0.9;
+line-height:1.6;
+padding:0.2cm;
+}
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=password], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+input[type=submit] {
+font-weight:bold;
+width: 100%;
+background-color: lightgreen;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+background-color: lightblue;
+}
+
+ul{
+list-style:none;
+background-color:white;
+width:40%;
+margin:auto;
+opacity:0.9;
+line-height:1.6;
+padding:0.2cm;
+}
+
+li.title{
+background-color:lightgray;
+font-weight:bold;
+font-size:30px;
+text-align:center;
+border-bottom: 2px solid black;
+}
+
+a:link, a:visited {
+margin:auto;
+width:26.1%;
+background-color: lightgreen;
+color: black;
+font-weight:bold;
+padding: 14px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover, a:active {
+background-color: lightblue;
+}
+
+.hide {display:none;}
+
+footer {
+   opacity:0.7;
+   line-height:0.9;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   
+}
